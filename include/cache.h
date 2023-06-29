@@ -1,7 +1,7 @@
 #ifndef CACHE_H
 #define CACHE_H
 #include <stdint.h>
-
+ 
 // SmallBoomConfig parameters:
 
 #define L1_BLOCK_SZ_BYTES 64 // L1缓存行大小为64bytes
