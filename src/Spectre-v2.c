@@ -10,7 +10,7 @@
   asm volatile ("csrr %0, " #reg : "=r"(__tmp)); \
   __tmp; })
 #define rdcycle() read_csr(cycle) 
-
+ 
 #define TRAIN_TIMES         6 // assumption is that you have a 2 bit counter in the predictor
 #define ROUNDS              1 // run the train + attack sequence X amount of times (for redundancy)
 #define ATTACK_SAME_ROUNDS  10 // amount of times to attack the same index
